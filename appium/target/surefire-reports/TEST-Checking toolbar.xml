@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="Checking toolbar" time="75.443" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/qtroom/Desktop/appium-java-internet-without-readme /appium/target/test-classes:/Users/qtroom/Desktop/appium-java-internet-without-readme /appium/target/classes:/Users/qtroom/.m2/repository/org/testng/testng/7.9.0/testng-7.9.0.jar:/Users/qtroom/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/qtroom/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/qtroom/.m2/repository/io/appium/java-client/9.2.2/java-client-9.2.2.jar:/Users/qtroom/.m2/repository/org/seleniumhq/selenium/selenium-api/4.19.1/selenium-api-4.19.1.jar:/Users/qtroom/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.19.1/selenium-remote-driver-4.19.1.jar:/Users/qtroom/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/qtroom/.m2/repository/com/google/guava/guava/33.1.0-jre/guava-33.1.0-jre.jar:/Users/qtroom/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/qtroom/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/qtroom/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/qtroom/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/Users/qtroom/.m2/repository/com/google/errorprone/error_prone_annotations/2.26.1/error_prone_annotations-2.26.1.jar:/Users/qtroom/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/qtroom/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.23.1-alpha/opentelemetry-semconv-1.23.1-alpha.jar:/Users/qtroom/.m2/repository/io/opentelemetry/opentelemetry-api/1.36.0/opentelemetry-api-1.36.0.jar:/Users/qtroom/.m2/repository/io/opentelemetry/opentelemetry-context/1.36.0/opentelemetry-context-1.36.0.jar:/Users/qtroom/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.36.0/opentelemetry-exporter-logging-1.36.0.jar:/Users/qtroom/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.36.0/opentelemetry-sdk-common-1.36.0.jar:/Users/qtroom/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.36.0/opentelemetry-sdk-extension-autoconfigure-spi-1.36.0.jar:/Users/qtroom/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.36.0/opentelemetry-sdk-extension-autoconfigure-1.36.0.jar:/Users/qtroom/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.36.0-alpha/opentelemetry-api-events-1.36.0-alpha.jar:/Users/qtroom/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.36.0/opentelemetry-sdk-trace-1.36.0.jar:/Users/qtroom/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.36.0-alpha/opentelemetry-extension-incubator-1.36.0-alpha.jar:/Users/qtroom/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.36.0/opentelemetry-sdk-1.36.0.jar:/Users/qtroom/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.36.0/opentelemetry-sdk-metrics-1.36.0.jar:/Users/qtroom/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.36.0/opentelemetry-sdk-logs-1.36.0.jar:/Users/qtroom/.m2/repository/net/bytebuddy/byte-buddy/1.14.12/byte-buddy-1.14.12.jar:/Users/qtroom/.m2/repository/org/seleniumhq/selenium/selenium-http/4.19.1/selenium-http-4.19.1.jar:/Users/qtroom/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/qtroom/.m2/repository/org/seleniumhq/selenium/selenium-json/4.19.1/selenium-json-4.19.1.jar:/Users/qtroom/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.19.1/selenium-manager-4.19.1.jar:/Users/qtroom/.m2/repository/org/seleniumhq/selenium/selenium-os/4.19.1/selenium-os-4.19.1.jar:/Users/qtroom/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/qtroom/.m2/repository/org/seleniumhq/selenium/selenium-support/4.19.1/selenium-support-4.19.1.jar:/Users/qtroom/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/qtroom/.m2/repository/com/fasterxml/jackson-xml-databind/0.6.2/jackson-xml-databind-0.6.2.jar:/Users/qtroom/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.2/jackson-mapper-asl-1.9.2.jar:/Users/qtroom/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.2/jackson-core-asl-1.9.2.jar:/Users/qtroom/.m2/repository/org/codehaus/jackson/jackson-xc/1.9.2/jackson-xc-1.9.2.jar:/Users/qtroom/.m2/repository/org/codehaus/woodstox/stax2-api/3.1.0/stax2-api-3.1.0.jar:/Users/qtroom/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:/Users/qtroom/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.8.5/jackson-dataformat-xml-2.8.5.jar:/Users/qtroom/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.5/jackson-core-2.8.5.jar:/Users/qtroom/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.jar:/Users/qtroom/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.5/jackson-databind-2.8.5.jar:/Users/qtroom/.m2/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.8.5/jackson-module-jaxb-annotations-2.8.5.jar:/Users/qtroom/.m2/repository/com/fasterxml/woodstox/woodstox-core/5.0.3/woodstox-core-5.0.3.jar:/Users/qtroom/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/Users/qtroom/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/qtroom/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/Users/qtroom/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/qtroom/.m2/repository/io/cucumber/cucumber-java/7.15.0/cucumber-java-7.15.0.jar:/Users/qtroom/.m2/repository/io/cucumber/cucumber-core/7.15.0/cucumber-core-7.15.0.jar:/Users/qtroom/.m2/repository/io/cucumber/cucumber-gherkin/7.15.0/cucumber-gherkin-7.15.0.jar:/Users/qtroom/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.15.0/cucumber-gherkin-messages-7.15.0.jar:/Users/qtroom/.m2/repository/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar:/Users/qtroom/.m2/repository/io/cucumber/messages/22.0.0/messages-22.0.0.jar:/Users/qtroom/.m2/repository/io/cucumber/tag-expressions/6.0.0/tag-expressions-6.0.0.jar:/Users/qtroom/.m2/repository/io/cucumber/cucumber-expressions/17.0.1/cucumber-expressions-17.0.1.jar:/Users/qtroom/.m2/repository/io/cucumber/datatable/7.15.0/datatable-7.15.0.jar:/Users/qtroom/.m2/repository/io/cucumber/cucumber-plugin/7.15.0/cucumber-plugin-7.15.0.jar:/Users/qtroom/.m2/repository/io/cucumber/docstring/7.15.0/docstring-7.15.0.jar:/Users/qtroom/.m2/repository/io/cucumber/html-formatter/20.4.0/html-formatter-20.4.0.jar:/Users/qtroom/.m2/repository/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar:/Users/qtroom/.m2/repository/io/cucumber/ci-environment/10.0.0/ci-environment-10.0.0.jar:/Users/qtroom/.m2/repository/io/cucumber/cucumber-junit/7.15.0/cucumber-junit-7.15.0.jar:/Users/qtroom/.m2/repository/org/slf4j/slf4j-api/2.0.12/slf4j-api-2.0.12.jar:/Users/qtroom/.m2/repository/org/slf4j/slf4j-simple/2.0.12/slf4j-simple-2.0.12.jar:/Users/qtroom/.m2/repository/org/junit/support/testng-engine/1.0.5/testng-engine-1.0.5.jar:/Users/qtroom/.m2/repository/org/junit/platform/junit-platform-engine/1.7.2/junit-platform-engine-1.7.2.jar:/Users/qtroom/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/qtroom/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Tehran"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IR"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/qtroom/Desktop/appium-java-internet-without-readme /appium/target/surefire/surefirebooter-20240402105447960_3.jar /Users/qtroom/Desktop/appium-java-internet-without-readme /appium/target/surefire 2024-04-02T10-54-47_924-jvmRun1 surefire-20240402105447960_1tmp surefire_0-20240402105447960_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16| 192.168.2/24|*. 192.168.2/24"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/qtroom/Desktop/appium-java-internet-without-readme /appium/target/test-classes:/Users/qtroom/Desktop/appium-java-internet-without-readme /appium/target/classes:/Users/qtroom/.m2/repository/org/testng/testng/7.9.0/testng-7.9.0.jar:/Users/qtroom/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/qtroom/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/qtroom/.m2/repository/io/appium/java-client/9.2.2/java-client-9.2.2.jar:/Users/qtroom/.m2/repository/org/seleniumhq/selenium/selenium-api/4.19.1/selenium-api-4.19.1.jar:/Users/qtroom/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.19.1/selenium-remote-driver-4.19.1.jar:/Users/qtroom/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/qtroom/.m2/repository/com/google/guava/guava/33.1.0-jre/guava-33.1.0-jre.jar:/Users/qtroom/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/qtroom/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/qtroom/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/qtroom/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/Users/qtroom/.m2/repository/com/google/errorprone/error_prone_annotations/2.26.1/error_prone_annotations-2.26.1.jar:/Users/qtroom/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/qtroom/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.23.1-alpha/opentelemetry-semconv-1.23.1-alpha.jar:/Users/qtroom/.m2/repository/io/opentelemetry/opentelemetry-api/1.36.0/opentelemetry-api-1.36.0.jar:/Users/qtroom/.m2/repository/io/opentelemetry/opentelemetry-context/1.36.0/opentelemetry-context-1.36.0.jar:/Users/qtroom/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.36.0/opentelemetry-exporter-logging-1.36.0.jar:/Users/qtroom/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.36.0/opentelemetry-sdk-common-1.36.0.jar:/Users/qtroom/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.36.0/opentelemetry-sdk-extension-autoconfigure-spi-1.36.0.jar:/Users/qtroom/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.36.0/opentelemetry-sdk-extension-autoconfigure-1.36.0.jar:/Users/qtroom/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.36.0-alpha/opentelemetry-api-events-1.36.0-alpha.jar:/Users/qtroom/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.36.0/opentelemetry-sdk-trace-1.36.0.jar:/Users/qtroom/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.36.0-alpha/opentelemetry-extension-incubator-1.36.0-alpha.jar:/Users/qtroom/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.36.0/opentelemetry-sdk-1.36.0.jar:/Users/qtroom/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.36.0/opentelemetry-sdk-metrics-1.36.0.jar:/Users/qtroom/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.36.0/opentelemetry-sdk-logs-1.36.0.jar:/Users/qtroom/.m2/repository/net/bytebuddy/byte-buddy/1.14.12/byte-buddy-1.14.12.jar:/Users/qtroom/.m2/repository/org/seleniumhq/selenium/selenium-http/4.19.1/selenium-http-4.19.1.jar:/Users/qtroom/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/qtroom/.m2/repository/org/seleniumhq/selenium/selenium-json/4.19.1/selenium-json-4.19.1.jar:/Users/qtroom/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.19.1/selenium-manager-4.19.1.jar:/Users/qtroom/.m2/repository/org/seleniumhq/selenium/selenium-os/4.19.1/selenium-os-4.19.1.jar:/Users/qtroom/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/qtroom/.m2/repository/org/seleniumhq/selenium/selenium-support/4.19.1/selenium-support-4.19.1.jar:/Users/qtroom/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/qtroom/.m2/repository/com/fasterxml/jackson-xml-databind/0.6.2/jackson-xml-databind-0.6.2.jar:/Users/qtroom/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.2/jackson-mapper-asl-1.9.2.jar:/Users/qtroom/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.2/jackson-core-asl-1.9.2.jar:/Users/qtroom/.m2/repository/org/codehaus/jackson/jackson-xc/1.9.2/jackson-xc-1.9.2.jar:/Users/qtroom/.m2/repository/org/codehaus/woodstox/stax2-api/3.1.0/stax2-api-3.1.0.jar:/Users/qtroom/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:/Users/qtroom/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.8.5/jackson-dataformat-xml-2.8.5.jar:/Users/qtroom/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.5/jackson-core-2.8.5.jar:/Users/qtroom/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.jar:/Users/qtroom/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.5/jackson-databind-2.8.5.jar:/Users/qtroom/.m2/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.8.5/jackson-module-jaxb-annotations-2.8.5.jar:/Users/qtroom/.m2/repository/com/fasterxml/woodstox/woodstox-core/5.0.3/woodstox-core-5.0.3.jar:/Users/qtroom/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/Users/qtroom/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/qtroom/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/Users/qtroom/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/qtroom/.m2/repository/io/cucumber/cucumber-java/7.15.0/cucumber-java-7.15.0.jar:/Users/qtroom/.m2/repository/io/cucumber/cucumber-core/7.15.0/cucumber-core-7.15.0.jar:/Users/qtroom/.m2/repository/io/cucumber/cucumber-gherkin/7.15.0/cucumber-gherkin-7.15.0.jar:/Users/qtroom/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.15.0/cucumber-gherkin-messages-7.15.0.jar:/Users/qtroom/.m2/repository/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar:/Users/qtroom/.m2/repository/io/cucumber/messages/22.0.0/messages-22.0.0.jar:/Users/qtroom/.m2/repository/io/cucumber/tag-expressions/6.0.0/tag-expressions-6.0.0.jar:/Users/qtroom/.m2/repository/io/cucumber/cucumber-expressions/17.0.1/cucumber-expressions-17.0.1.jar:/Users/qtroom/.m2/repository/io/cucumber/datatable/7.15.0/datatable-7.15.0.jar:/Users/qtroom/.m2/repository/io/cucumber/cucumber-plugin/7.15.0/cucumber-plugin-7.15.0.jar:/Users/qtroom/.m2/repository/io/cucumber/docstring/7.15.0/docstring-7.15.0.jar:/Users/qtroom/.m2/repository/io/cucumber/html-formatter/20.4.0/html-formatter-20.4.0.jar:/Users/qtroom/.m2/repository/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar:/Users/qtroom/.m2/repository/io/cucumber/ci-environment/10.0.0/ci-environment-10.0.0.jar:/Users/qtroom/.m2/repository/io/cucumber/cucumber-junit/7.15.0/cucumber-junit-7.15.0.jar:/Users/qtroom/.m2/repository/org/slf4j/slf4j-api/2.0.12/slf4j-api-2.0.12.jar:/Users/qtroom/.m2/repository/org/slf4j/slf4j-simple/2.0.12/slf4j-simple-2.0.12.jar:/Users/qtroom/.m2/repository/org/junit/support/testng-engine/1.0.5/testng-engine-1.0.5.jar:/Users/qtroom/.m2/repository/org/junit/platform/junit-platform-engine/1.7.2/junit-platform-engine-1.7.2.jar:/Users/qtroom/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/qtroom/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/qtroom"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/qtroom/Desktop/appium-java-internet-without-readme /appium"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/qtroom/Desktop/appium-java-internet-without-readme /appium/target/surefire/surefirebooter-20240402105447960_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16| 192.168.2/24|*. 192.168.2/24"/>
+    <property name="java.runtime.version" value="11.0.18+9-LTS-195"/>
+    <property name="user.name" value="qtroom"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="14.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="/Users/qtroom/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/lh/fl92k69j36z32cz2j0_nh9_r0000gn/T/"/>
+    <property name="java.version" value="11.0.18"/>
+    <property name="user.dir" value="/Users/qtroom/Desktop/appium-java-internet-without-readme /appium"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/qtroom/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.18+9-LTS-195"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16| 192.168.2/24|*. 192.168.2/24"/>
+  </properties>
+  <testcase name="Checking packages" classname="Checking toolbar" time="40.603">
+    <system-out><![CDATA[
+Scenario: Checking packages             # src/test/resources/feature/packages.feature:3
+  Given I open the app                  # com.adak.step_defenitions.packages_steps.i_open_the_app()
+  When I click on packages on toolbar   # com.adak.step_defenitions.packages_steps.i_click_on_packages_on_toolbar()
+  And I click on buy new package        # com.adak.step_defenitions.packages_steps.i_click_on_buy_new_package()
+  And I click on internet               # com.adak.step_defenitions.packages_steps.i_click_on_internet()
+  And I click on conversation           # com.adak.step_defenitions.packages_steps.i_click_on_conversation()
+  And I click on mci                    # com.adak.step_defenitions.packages_steps.i_click_on_mci()
+WARN Appium Appium encountered 4 warnings while validating drivers found in manifest /Users/qtroom/.appium/node_modules/.cache/appium/extensions.yaml
+WARN Appium Driver "uiautomator2" has 1 potential problem: 
+WARN Appium   - Driver "uiautomator2" (package `appium-uiautomator2-driver`) may be incompatible with the current version of Appium (v2.0.0-rc.3) due to its peer dependency on older Appium v^2.0.0. Please upgrade `appium-uiautomator2-driver` to v2.45.1 or newer.
+WARN Appium Driver "xcuitest" has 1 potential problem: 
+WARN Appium   - Driver "xcuitest" (package `appium-xcuitest-driver`) may be incompatible with the current version of Appium (v2.0.0-rc.3) due to its peer dependency on older Appium v^2.0.0. Please upgrade `appium-xcuitest-driver` to v5.16.1 or newer.
+WARN Appium Driver "playwright" has 1 potential problem: 
+WARN Appium   - Driver "playwright" (package `@dlenroc/appium-playwright-driver`) may be incompatible with the current version of Appium (v2.0.0-rc.3) due to an invalid or missing peer dependency on Appium. Please ask the developer of `@dlenroc/appium-playwright-driver` to add a peer dependency on `^appium@2.0.0-rc.3`.
+WARN Appium Driver "chromium" has 1 potential problem: 
+WARN Appium   - Driver "chromium" (package `appium-chromium-driver`) may be incompatible with the current version of Appium (v2.0.0-rc.3) due to its peer dependency on older Appium v^2.0.0. Please upgrade `appium-chromium-driver` to v1.3.24 or newer.
+  And I click on hybrid                 # com.adak.step_defenitions.packages_steps.i_click_on_hybrid()
+  And I click on sms                    # com.adak.step_defenitions.packages_steps.i_click_on_sms()
+  And I click on international          # com.adak.step_defenitions.packages_steps.i_click_on_international()
+  And I click on roming                 # com.adak.step_defenitions.packages_steps.i_click_on_roming()
+  Then everything should work correctly # com.adak.step_defenitions.packages_steps.everything_should_work_correctly()
+]]></system-out>
+  </testcase>
+  <testcase name="Checking charge" classname="Checking toolbar" time="34.789">
+    <system-out><![CDATA[
+@A
+Scenario: Checking charge               # src/test/resources/feature/packages.feature:17
+WARN Appium Appium encountered 4 warnings while validating plugins found in manifest /Users/qtroom/.appium/node_modules/.cache/appium/extensions.yaml
+WARN Appium Plugin "device-farm" has 1 potential problem: 
+WARN Appium   - Plugin "device-farm" (package `appium-device-farm`) may be incompatible with the current version of Appium (v2.0.0-rc.3) due to its peer dependency on older Appium v^2.2.1. Please upgrade `appium-device-farm` to v8.4.6 or newer.
+WARN Appium Plugin "images" has 1 potential problem: 
+WARN Appium   - Plugin "images" (package `@appium/images-plugin`) may be incompatible with the current version of Appium (v2.0.0-rc.3) due to its peer dependency on older Appium v^2.0.0. Please upgrade `@appium/images-plugin` to v2.1.8 or newer.
+&amp#27;[35m[Appium]&amp#27;[39m Welcome to Appium v2.0.0-rc.3
+&amp#27;[35m[Appium]&amp#27;[39m Non-default server args:
+&amp#27;[35m[Appium]&amp#27;[39m { address: &amp#27;[32m'127.0.0.1'&amp#27;[39m }
+&amp#27;[35m[Appium]&amp#27;[39m Attempting to load driver uiautomator2...
+[debug] &amp#27;[35m[Appium]&amp#27;[39m Requiring driver at /Users/qtroom/.appium/node_modules/appium-uiautomator2-driver
+&amp#27;[35m[Appium]&amp#27;[39m Attempting to load driver xcuitest...
+[debug] &amp#27;[35m[Appium]&amp#27;[39m Requiring driver at /Users/qtroom/.appium/node_modules/appium-xcuitest-driver
+&amp#27;[35m[Appium]&amp#27;[39m Attempting to load driver playwright...
+[debug] &amp#27;[35m[Appium]&amp#27;[39m Requiring driver at /Users/qtroom/Documents/appium_playwright/appium-playwright-driver
+&amp#27;[35m[Appium]&amp#27;[39m Attempting to load driver chromium...
+[debug] &amp#27;[35m[Appium]&amp#27;[39m Requiring driver at /Users/qtroom/.appium/node_modules/appium-chromium-driver
+&amp#27;[35m[Appium]&amp#27;[39m Appium REST http interface listener started on http://127.0.0.1:4723
+&amp#27;[35m[Appium]&amp#27;[39m Available drivers:
+&amp#27;[35m[Appium]&amp#27;[39m   - uiautomator2@2.34.1 (automationName 'UiAutomator2')
+&amp#27;[35m[Appium]&amp#27;[39m   - xcuitest@5.10.2 (automationName 'XCUITest')
+&amp#27;[35m[Appium]&amp#27;[39m   - playwright@0.0.2 (automationName 'Playwright')
+&amp#27;[35m[Appium]&amp#27;[39m   - chromium@1.2.50 (automationName 'Chromium')
+&amp#27;[35m[Appium]&amp#27;[39m Available plugins:
+&amp#27;[35m[Appium]&amp#27;[39m   - device-farm@8.3.16
+&amp#27;[35m[Appium]&amp#27;[39m   - appium-dashboard@v2.0.2
+&amp#27;[35m[Appium]&amp#27;[39m   - images@2.1.7
+&amp#27;[35m[Appium]&amp#27;[39m   - element-wait@2.0.3
+&amp#27;[35m[Appium]&amp#27;[39m No plugins activated. Use the --use-plugins flag with names of plugins to activate
+  Given I open the app                  # com.adak.step_defenitions.packages_steps.i_open_the_app()
+  When I click on charge on toolbar     # com.adak.step_defenitions.packages_steps.i_click_on_charge_on_toolbar()
+  And I click on extraordinary details  # com.adak.step_defenitions.packages_steps.i_click_on_extraordinary_details()
+  And I click on loyality details       # com.adak.step_defenitions.packages_steps.i_click_on_loyality_details()
+  And I click on ladyes details         # com.adak.step_defenitions.packages_steps.i_click_on_ladyes_details()
+  And I click on buy new charge         # com.adak.step_defenitions.packages_steps.i_click_on_buy_new_charge()
+  And I click on extraordinary          # com.adak.step_defenitions.packages_steps.i_click_on_extraordinary()
+  And I click on ladyes                 # com.adak.step_defenitions.packages_steps.i_click_on_ladyes()
+  And I click on teens                  # com.adak.step_defenitions.packages_steps.i_click_on_teens()
+  And I click on loyality               # com.adak.step_defenitions.packages_steps.i_click_on_loyality()
+  And I click on buy                    # com.adak.step_defenitions.packages_steps.i_click_on_buy()
+  And I click on parachute              # com.adak.step_defenitions.packages_steps.i_click_on_parachute()
+  Then everything should work correctly # com.adak.step_defenitions.packages_steps.everything_should_work_correctly()
+]]></system-out>
+  </testcase>
+</testsuite>
