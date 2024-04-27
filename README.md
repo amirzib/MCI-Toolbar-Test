@@ -3,12 +3,12 @@
 ---
 ## Section 1: Quick Overview
 #### Overview
-Here we are writing some test (health) for toolbar mci app with gherklin syntax.
+Here we are writing some tests (health) for the toolbar mci app with gherklin syntax.
 
 #### Road map
-We expecting everything in toolbar and some submenu work correctly.
+We expect everything in the toolbar and some submenu to work correctly.
 #### Configuration
-Important configurations are notice in [configuration file]().
+Important configurations are noticed in [configuration file](https://github.com/amirzib/MCI-Toolbar-Test/blob/main/configurtion.md).
 
 #### Change Log
 --
@@ -35,7 +35,7 @@ We are using VSCode with this setting below:
     "cucumberautocomplete.stepsInvariants": true,
 }
 ```
-We are cofigure our step in ```cucumberautocomplete.steps``` so we can easily go to each file with holding ```ctrl``` and click on each sentences in scenarios.
+We configured our step in ```cucumberautocomplete.steps``` so we can easily go to each file by holding ```ctrl``` and clicking on each sentence in scenarios.
 
 #### Application Dependencies 
 
@@ -78,7 +78,7 @@ Maven surfire plugin should be like this:
 ```
 
 #### Folder Structure
-We have our features are in `src/test/resources/feature**.feature` and our steps are in `src/test/java/com/adak/step_defenitions/**.java`
+We have our features in `src/test/resources/feature**.feature` and our steps in `src/test/java/com/adak/step_defenitions/**.java`
 We have our test runner in `src/test/java/com/adak/Runner/runnerTest.java`
 
 ## Section 3: Acknowledgment
